@@ -1,24 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>DreamWorld</members>
-        <members>HelloWorld</members>
+        <members>*</members>
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Account.Active__c</members>
+        <members>Account.CustomerPriority__c</members>
+        <members>Account.Headquarter_Account__c</members>
+        <members>Account.NumberofLocations__c</members>
+        <members>Account.SLAExpirationDate__c</members>
+        <members>Account.SLASerialNumber__c</members>
+        <members>Account.SLA__c</members>
+        <members>Account.UpsellOpportunity__c</members>
+        <members>Contact.Headquarter_account__c</members>
+        <members>Contact.Languages__c</members>
+        <members>Contact.Level__c</members>
+        <members>Contact.Pan_Card__c</members>
+        <members>Contact.Year_of_Class__c</members>
         <members>Dream_World__c.Dream_World_Title__c</members>
+        <members>Employee__c.CEO__c</members>
+        <members>Employee__c.Mentor__c</members>
+        <members>Employee__c.Trainer__c</members>
+        <members>Pan_Card__c.First_Name__c</members>
+        <members>Pan_Card__c.Last_Name__c</members>
+        <members>Pan_Card__c.Pan_Card_Number__c</members>
+        <members>StudentSubjects__c.Student__c</members>
+        <members>StudentSubjects__c.Subject__c</members>
+        <members>Student__c.Account_Number__c</members>
+        <members>Student__c.Address__c</members>
+        <members>Student__c.Bank_Name__c</members>
+        <members>Student__c.Bank_Phone_Number__c</members>
+        <members>Student__c.City__c</members>
+        <members>Student__c.Class__c</members>
+        <members>Student__c.Current_Year__c</members>
+        <members>Student__c.Donation_Amount__c</members>
+        <members>Student__c.Email__c</members>
+        <members>Student__c.Exam_Fees_Submitted__c</members>
+        <members>Student__c.Father_Mobile_Number__c</members>
+        <members>Student__c.Father_Name__c</members>
+        <members>Student__c.Fees_Submitted__c</members>
+        <members>Student__c.HomePhone__c</members>
+        <members>Student__c.IFSC_Code__c</members>
+        <members>Student__c.Is_Donation__c</members>
+        <members>Student__c.Mobile_Number__c</members>
+        <members>Student__c.Overall_Grade__c</members>
+        <members>Student__c.Pending_Exam_Fees__c</members>
+        <members>Student__c.Pending_Fees_Amount__c</members>
+        <members>Student__c.Pending_Overall_Amount__c</members>
+        <members>Student__c.Roll_Number__c</members>
+        <members>Student__c.Section__c</members>
+        <members>Student__c.State__c</members>
+        <members>Student__c.Stream__c</members>
+        <members>Student__c.Subjects_in_which_Back3__c</members>
+        <members>Student__c.Subjects_in_which_Back4__c</members>
+        <members>Student__c.Subjects_in_which_Back__c</members>
+        <members>Student__c.X1st_Sem_Back__c</members>
+        <members>Student__c.X1st_Sem_Percentage__c</members>
+        <members>Student__c.X2nd_Sem_Percentage__c</members>
+        <members>Student__c.X3rd_Sem_Back__c</members>
+        <members>Student__c.X4th_Sem_Back__c</members>
+        <members>Student__c.X4th_Sem_Percentage__c</members>
+        <members>Teacher__c.College__c</members>
         <name>CustomField</name>
     </types>
     <types>
+        <members>College__c</members>
         <members>Dream_World__c</members>
+        <members>Employee__c</members>
+        <members>Pan_Card__c</members>
+        <members>StudentSubjects__c</members>
+        <members>Student__c</members>
+        <members>Subject__c</members>
+        <members>Teacher__c</members>
+        <members>Year_of_Class__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>College__c</members>
         <members>Dream_World__c</members>
+        <members>Employee__c</members>
+        <members>StudentSubjects__c</members>
+        <members>Student__c</members>
+        <members>Subject__c</members>
+        <members>Teacher__c</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>Dream_World__c-Dream World Layout</members>
+        <members>Employee__c-Employee Layout</members>
+        <members>Pan_Card__c-Pan Card Layout</members>
+        <members>StudentSubjects__c-StudentSubjects Layout</members>
+        <members>Student__c-Registrar Layout</members>
+        <members>Student__c-Teacher Layout</members>
+        <members>Subject__c-Subject Layout</members>
+        <members>Teacher__c-Teacher Layout</members>
+        <members>Year_of_Class__c-Year of Class Layout</members>
         <name>Layout</name>
     </types>
     <version>53.0</version>
