@@ -26,7 +26,17 @@ public class QueriesManager {
     //AND OR Operator      
         List<Student__c> studentList5 = [select id, Stream__C , Bank_Name__c , Name from Student__c where Bank_Name__c = 'BOB' AND (Stream__c = 'PCB' OR Stream__c = 'PCM')];
         for(Student__c stu : studentList5){
-			system.debug('Check Student Data ::: ' + stu);        
-	    }        
+			system.debug('Check Student Data ::: ' + stu);
+        }  
+    //Date       
+            List<Student__c> studentList6 = [select id, Name , Date_Of_Birth__c from Student__c where Date_Of_Birth__c > 1996-06-01 ];
+        for(Student__c stu : studentList6){ 
+			system.debug('Check Student Data ::: ' + stu);            
+	    }
+    //Date&Time       
+            List<Student__c> studentList7 = [select id, Name, Create_Date_Time__c from Student__c where Create_Date_Time__c > 2022-06-01T12:00:00Z ];
+        for(Student__c stu : studentList7){ 
+			system.debug('Check Student Data ::: ' + stu);            
+	    }                
     }
 }

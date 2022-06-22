@@ -4,5 +4,18 @@
         <members>QueriesManager</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>Student__c.Create_Date_Time__c</members>
+        <members>Student__c.Date_Of_Birth__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Student__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Student__c</members>
+        <name>CustomTab</name>
+    </types>
     <version>53.0</version>
 </Package>
