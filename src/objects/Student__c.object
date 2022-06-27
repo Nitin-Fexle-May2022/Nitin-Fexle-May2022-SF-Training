@@ -211,12 +211,36 @@
         <fullName>Class__c</fullName>
         <externalId>false</externalId>
         <label>Class</label>
-        <length>10</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ist Year</fullName>
+                    <default>false</default>
+                    <label>Ist Year</label>
+                </value>
+                <value>
+                    <fullName>2nd Year</fullName>
+                    <default>false</default>
+                    <label>2nd Year</label>
+                </value>
+                <value>
+                    <fullName>3rd Year</fullName>
+                    <default>false</default>
+                    <label>3rd Year</label>
+                </value>
+                <value>
+                    <fullName>4th Year</fullName>
+                    <default>false</default>
+                    <label>4th Year</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Create_Date_Time__c</fullName>
@@ -465,28 +489,27 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
-            <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>PCM</fullName>
+                    <fullName>Computer_Science</fullName>
                     <default>false</default>
-                    <label>PCM</label>
+                    <label>Computer Science</label>
                 </value>
                 <value>
-                    <fullName>PCB</fullName>
+                    <fullName>Electronic</fullName>
                     <default>false</default>
-                    <label>PCB</label>
+                    <label>Electronic</label>
                 </value>
                 <value>
-                    <fullName>Commerce</fullName>
+                    <fullName>Civil</fullName>
                     <default>false</default>
-                    <label>Commerce</label>
+                    <label>Civil</label>
                 </value>
                 <value>
-                    <fullName>Arts</fullName>
+                    <fullName>Mechanical</fullName>
                     <default>false</default>
-                    <label>Arts</label>
+                    <label>Mechanical</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -674,6 +697,25 @@
         <active>true</active>
         <label>Registrar Records</label>
         <picklistValues>
+            <picklist>Class__c</picklist>
+            <values>
+                <fullName>2nd Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3rd Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4th Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ist Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Section__c</picklist>
             <values>
                 <fullName>A</fullName>
@@ -699,19 +741,19 @@
         <picklistValues>
             <picklist>Stream__c</picklist>
             <values>
-                <fullName>Arts</fullName>
+                <fullName>Civil</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Commerce</fullName>
+                <fullName>Computer_Science</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>PCB</fullName>
+                <fullName>Electronic</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>PCM</fullName>
+                <fullName>Mechanical</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -778,6 +820,25 @@
         <active>true</active>
         <label>Teacher&apos;s Record</label>
         <picklistValues>
+            <picklist>Class__c</picklist>
+            <values>
+                <fullName>2nd Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3rd Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4th Year</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ist Year</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Section__c</picklist>
             <values>
                 <fullName>A</fullName>
@@ -803,19 +864,19 @@
         <picklistValues>
             <picklist>Stream__c</picklist>
             <values>
-                <fullName>Arts</fullName>
+                <fullName>Civil</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Commerce</fullName>
+                <fullName>Computer_Science</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>PCB</fullName>
+                <fullName>Electronic</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>PCM</fullName>
+                <fullName>Mechanical</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
