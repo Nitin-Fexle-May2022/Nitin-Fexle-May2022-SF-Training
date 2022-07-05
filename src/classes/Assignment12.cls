@@ -103,5 +103,12 @@ public class Assignment12 {
                 results = null;
             }
             System.debug('check student result :'+results);
+              
+        Account acc = new Account();
+		string s1 = acc?.Name;
+		System.debug(s1);
         }
+    	
+
+
 }
