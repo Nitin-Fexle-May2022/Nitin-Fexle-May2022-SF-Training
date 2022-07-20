@@ -1,20 +1,19 @@
-public class CountryStateDistrictDataManipulation {
+public class CountryStateDistrictDataManipulation{
     
     String combinationKey;
-    String countryKey;
     Integer districtSize;
+    
+    static List<District__c> listOfDistrict = [SELECT Id, Name, State_Name__r.Country_Name__r.Id, State_Name__r.Country_Name__r.Name,
+                                               State_Name__r.Id, State_Name__r.Name FROM District__c ];
     
     //Nested Map using Country to get the states and city name
     static Map<String, Map<String, List<String>>> countryMapWithStates = new Map<String, Map<String, List<String>>>();
     
-    public CountryStateDistrictDataManipulation(String combinationKey, String countryKey, Integer districtSize){
+    public CountryStateDistrictDataManipulation(String combinationKey , Integer districtSize){
         
         this.combinationKey = combinationKey;
-        this.countryKey = countryKey;
         this.districtSize = districtSize;
         
-        List<District__c> listOfDistrict = [SELECT Id, Name, State_Name__r.Country_Name__r.Id, State_Name__r.Country_Name__r.Name,
-                                            State_Name__r.Id, State_Name__r.Name FROM District__c ];
         for(District__c dis : listOfDistrict)
         {  
             if(!countryMapWithStates.containsKey(dis.State_Name__r.Country_Name__r.Name))
@@ -30,40 +29,26 @@ public class CountryStateDistrictDataManipulation {
             findCombinationCountryStateDistrict(combinationKey , districtSize);
         
         rollUpDistrictsAndStatesOnCountry();
-        
-        if(countryKey != null)
-            countryJSONGenerator(countryKey);
+        countryJSONGenerator();
     }
     
     public static void findCombinationCountryStateDistrict(String combinationLetter , Integer districtSize){
-        for(String countryName : countryMapWithStates.keySet())
+        
+        List<String> listOfDistricts = new List<String>();
+        for(District__c dis : listOfDistrict)
         {
-            if(countryName.startsWith(combinationLetter))
-            {
-                for(String stateName : countryMapWithStates.get(countryName).keySet()){
-                    if(stateName.startswith(combinationLetter))
-                    {
-                        for(String districtName : countryMapWithStates.get(countryName).get(stateName)){
-                            if(districtName.startsWith(combinationLetter)){
-                                System.debug('Combination - Country : '+countryName+', State : '+stateName+ ', District : '+districtName);
-                            }
-                        }
-                    }
-                }    
-            }
+            if(dis.Name.startsWith(combinationLetter) && dis.State_Name__r.Name.startsWith(combinationLetter) 
+               && dis.State_Name__r.Country_Name__r.Name.startsWith(combinationLetter))
+                System.debug('Combination - Country : '+dis.State_Name__r.Country_Name__r.Name+', State : '+dis.State_Name__r.Name+
+                             ', District : '+dis.Name);
         }
         
-        List<String> listOfDistrict = new List<String>();
         System.debug('District with Greater Interger : ');
-        for(String countryName : countryMapWithStates.keySet()){
-            for(String stateName : countryMapWithStates.get(countryName).keySet()){
-                for(String districtName : countryMapWithStates.get(countryName).get(stateName)){
-                    if(districtName.length() >= districtSize)
-                    	listOfDistrict.add(districtName);
-                }
-            }               
+        for(District__c dis : listOfDistrict){
+            if(dis.Name.length() >= districtSize)
+                listOfDistricts.add(dis.Name);               
         }
-        System.debug(listOfDistrict);
+        System.debug(listOfDistricts);
     }
     public static void rollUpDistrictsAndStatesOnCountry(){
         
@@ -80,6 +65,7 @@ public class CountryStateDistrictDataManipulation {
             mapOfStateDistrictsToBeUpdate.put(st.Id, st);
         }    
         if(!mapOfStateDistrictsToBeUpdate.isEmpty())
+            
             //Update States records
             update mapOfStateDistrictsToBeUpdate.values();
         
@@ -98,44 +84,46 @@ public class CountryStateDistrictDataManipulation {
             //Update Country records
             update mapOfCountryDistrictsToBeUpdate.values();
     }
-    public static void countryJSONGenerator(String countryKey){
+    public static void countryJSONGenerator(){
         
         List<Country__c> countryList = [SELECT Id, Name, Total_Number_of_Districts__c, Total_Number_of_States__c, Country_Code__c, 
                                         (SELECT Id, Name, Total_Number_of_Districts__c FROM States__r )
-                                        FROM Country__c WHERE Name =:countryKey];
+                                        FROM Country__c ];
         if(!countryList.isEmpty())
+            for(Country__c co : countryList)
         {
-            Country wCountry = new Country();
-            wCountry.countryName = countryList[0].Name;
-            wCountry.countryCode = countryList[0].Country_Code__c;
-            wCountry.states = new List<states>();
-            wCountry.Total_Number_Of_Districts = (Integer)countryList[0].Total_Number_of_Districts__c;
-            wCountry.Total_Number_Of_States = (Integer)countryList[0].Total_Number_of_States__c;
-            
-            if(!countryList[0].States__r.isEmpty())
             {
-                for(State__c st : countryList[0].States__r)
+                Country wCountry = new Country();
+                wCountry.countryName = co.Name;
+                wCountry.countryCode = co.Country_Code__c;
+                wCountry.states = new List<states>();
+                wCountry.Total_Number_Of_Districts = (Integer)co.Total_Number_of_Districts__c;
+                wCountry.Total_Number_Of_States = (Integer)co.Total_Number_of_States__c;
+                
+                if(!co.States__r.isEmpty())
                 {
-                    States wrapState = new States();
-                    wrapState.stateName = st.Name;
-                    wrapState.districts = new List<Districts>();
-                    wrapState.Total_Number_Of_Districts = (Integer)st.Total_Number_of_Districts__c;
-                    
-                    for(String dt : countryMapWithStates.get(countryKey).get(st.Name))
+                    for(State__c st : co.States__r)
                     {
-                        Districts wrapDistrict = new Districts();
-                        wrapDistrict.districtName = dt;
-                        wrapState.districts.add(wrapDistrict);
+                        States wrapState = new States();
+                        wrapState.stateName = st.Name;
+                        wrapState.districts = new List<Districts>();
+                        wrapState.Total_Number_Of_Districts = (Integer)st.Total_Number_of_Districts__c;
+                        
+                        for(String dt : countryMapWithStates.get(co.Name).get(st.Name))
+                        {
+                            Districts wrapDistrict = new Districts();
+                            wrapDistrict.districtName = dt;
+                            wrapState.districts.add(wrapDistrict);
+                        }
+                        wCountry.states.add(wrapState);         
                     }
-                    wCountry.states.add(wrapState);         
                 }
+                String jString = JSON.serialize(wCountry);
+                System.debug(jString); 
+                co.Country_JSON_Data__c = jString;
+                update countryList;
             }
-            String jString = JSON.serialize(wCountry);
-            System.debug(jString); 
-            countryList[0].Country_JSON_Data__c = jString;
-            update countryList;
-        }
-        
+        }     
     }
     
     public List<Country> countryList{get; set;}
