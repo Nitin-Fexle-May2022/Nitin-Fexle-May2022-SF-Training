@@ -8,12 +8,12 @@ trigger Trigger_Account on Account (Before Insert, Before Update, After Insert, 
             system.debug('Check Insert List ::: Trigger.New ' + Trigger.New);
             system.debug('Check Insert List ::: Trigger.old ' + Trigger.old);
             //Calling Helper Class Method
-            AccountTriggerHelper.accountEmailHandlerBeforeInsert(Trigger.new);
+            AccountTriggerHelper.accountEmailHandlerBeforeInsertOrUpdate(Trigger.New,Trigger.OldMap);
         }
         if(Trigger.isUpdate){  
             system.debug('Check Update List ::: Trigger.New ' + Trigger.New);
             system.debug('Check Update List ::: Trigger.old ' + Trigger.Old);
-            AccountTriggerHelper.accountEmailHandlerBeforeUpdate(Trigger.New,Trigger.OldMap);
+            AccountTriggerHelper.accountEmailHandlerBeforeInsertOrUpdate(Trigger.New,Trigger.OldMap);
             
             if(Trigger.New[0].Type != Trigger.old[0].Type){
   
