@@ -115,6 +115,16 @@
 		<name>Layout</name>
 	</types>
 	<types>
+		<members>demoSyncAsync</members>
+		<members>methodSequence</members>
+		<members>myCalculator</members>
+		<members>childLwc</members>
+		<members>parentLwc</members>
+		<members>childWebComponent</members>
+		<members>parentWebComponent</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
 		<members>Student__c.Registrar_Records</members>
 		<members>Student__c.Teacher_s_Record</members>
 		<name>RecordType</name>
