@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Output" icon-name="custom:custom63">
+        <div class="slds-var-m-around_small">
+            <p class="slds-var-m-around_medium">
+                <!-- <lightning-button variant="brand" label="Get Status" onclick={handleLoad} ></lightning-button> -->
+                <lightning-button variant="brand" label="Get Result" onclick={handleOnlick} ></lightning-button>
+            </p>
+            <template if:true={String1}>
+                <p>{String1}</p>
+            </template>
+            <template if:true={String2}>
+                <p>{String1} {String2}</p>
+            </template>
+            <template if:true={String3}>
+                <p>{String1} {String2} {String3}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
