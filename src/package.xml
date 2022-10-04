@@ -21,6 +21,8 @@
 		<members>Automobile_Tag__c.Account__c</members>
 		<members>Automobile_Tag__c.Opportunity__c</members>
 		<members>Book__c.Price__c</members>
+		<members>Class__c.Section__c</members>
+        <members>School__c.Pin__c</members>
 		<members>Contact.Headquarter_account__c</members>
 		<members>Contact.Level__c</members>
 		<members>Contact.Pan_Card__c</members>
@@ -91,6 +93,8 @@
 		<name>CustomField</name>
 	</types>
 	<types>
+	    <members>Class__c</members>
+        <members>School__c</members>
 		<members>Book__c</members>
 		<members>College__c</members>
 		<members>Country__c</members>
@@ -115,9 +119,22 @@
 		<name>Layout</name>
 	</types>
 	<types>
+		<members>myCalculator</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
 		<members>Student__c.Registrar_Records</members>
 		<members>Student__c.Teacher_s_Record</members>
 		<name>RecordType</name>
 	</types>
+	 <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Profile</name>
+    </types>
 	<version>53.0</version>
 </Package>
+
