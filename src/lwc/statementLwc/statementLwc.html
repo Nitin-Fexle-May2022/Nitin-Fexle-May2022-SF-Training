@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Output" icon-name="custom:custom63">
+            <div class="slds-var-m-around_small">
+                <p class="slds-var-m-around_medium">
+                <!-- <lightning-button variant="brand" label="Get Status" onclick={handleLoad} ></lightning-button> -->
+                    <lightning-input type="Date" variant="standard" name="Start Date" label="Start Date" placeholder="Select Start Date" onchange={handleDateChange1}></lightning-input>
+                    <lightning-input type="Date" variant="standard" name="End Date" label="End Date" placeholder="Select End Date" onchange={handleDateChange2}></lightning-input>
+                    <lightning-button variant="brand" label="Display Transations" onclick={handleDisplayRecords} ></lightning-button>
+                    <lightning-button variant="brand" label="DownLoad CSV" onclick={handleCsvRecords} ></lightning-button>
+                    <lightning-button variant="brand" label="Download PDF" onclick={generatePdf} ></lightning-button>
+                </p>
+            </div>
+            <template if:true={showTable}>
+                <lightning-datatable key-field="Id"  data={recordData}
+                            columns={columnHeader} hide-checkbox-column="true">
+                </lightning-datatable>
+            </template>
+    </lightning-card>
+</template>

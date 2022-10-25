@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Email_After_Transaction</name>
+        <label>Send Email After Transaction</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>DebitEmail</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Contact__r.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Updated Account Balance </stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Email_After_Transaction_0</name>
+        <label>Send Email After Transaction</label>
+        <locationX>314</locationX>
+        <locationY>455</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>CreditEmail</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Contact__r.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Updated Account Balance </stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>Check_Transaction_Type</name>
+        <label>Check Transaction Type</label>
+        <locationX>314</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Transiction_Type_is_Debit</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Debit</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Email_After_Transaction</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Transiction Type is Debit</label>
+        </rules>
+        <rules>
+            <name>Transition_Type_is_Credit</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Credit</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Email_After_Transaction_0</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Transition Type is Credit</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Send Emails After Transaction Completion {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Send Emails After Transaction Completion</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Transaction_Type</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Completed</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Cancelled</stringValue>
+            </value>
+        </filters>
+        <object>Transaction_Enteries__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <textTemplates>
+        <name>CreditEmail</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt;Your A/c {!$Record.Contact__r.Account_Number__c} is credited by {!$Record.Amount__c} on {!$Record.Transaction_Date__c}. Available Bal. Rs. {!$Record.Contact__r.Available_Balance__c}.&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>DebitEmail</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;Your A/c {!$Record.Contact__r.Account_Number__c} is debited by {!$Record.Amount__c} on {!$Record.Transaction_Date__c}. Available Bal. Rs. {!$Record.Contact__r.Available_Balance__c}.&lt;/p&gt;</text>
+    </textTemplates>
+</Flow>

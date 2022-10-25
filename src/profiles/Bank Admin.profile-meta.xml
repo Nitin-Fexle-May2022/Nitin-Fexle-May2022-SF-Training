@@ -1,0 +1,1561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Banking_Management_System</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <classAccesses>
+        <apexClass>ApexMethodSequence</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Assignment12</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Assignment13</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Assignment15</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Assignment16</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Assignment17</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ConstantDemo</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ConstuctorDemo</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ContactTriggerHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CountryStateDistrictDataManipulation</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CountryStateJSONGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CountryTriggerHelper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CustomerPurchaseOrder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DistrictTriggerHelper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DmlDemo</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DreamWorld</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>EmailHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>EmployeePurchaseOrder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ExampleA</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ExampleA1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ExampleB</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ExampleB1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ExampleC</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ExtraAssignment</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ExtraAssignment17</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HTTPRequest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HelloWorld</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HelloWorldTestClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HomePageController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>InstanceOfDemo</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LwcContactsDetailOnAccount</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MapClassConstructorInApex</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MyApexClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MyHelloWorld</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OpportunityTriggerHelper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PackageTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ParentChildSample</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PatternManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PositionException</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ProcessPurchaseOrder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PurchaseOrder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>QueriesManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>QueryStudent</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SendMonthlyEmailSchdule</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SendRequest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>StateTriggerHelper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>StudentDataProvider</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>StudentManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TransactionListViewLwcController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TransactionTriggerHelper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TriggerAssignment</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Account_Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Headquarter_Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.MyExtID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Automobile_Presence_Sensor__c.Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Automobile_Sensor__c.Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Automobile_TDU__c.Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Automobile_Tag__c.Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Book__c.Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Class__c.Section__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Account_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Available_Balance__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Daily_Debit_Limit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Daily_Transaction_Limit_Count__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Headquarter_account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Monthly_Debit_Limit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Monthly_Transaction_Limit_Count__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Pan_Card__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Transaction_Limit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Year_of_Class__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Country__c.Country_JSON_Data__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Country__c.Total_Number_of_Districts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Country__c.Total_Number_of_States__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>District__c.Country__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>District__c.State_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Dream_World__c.Dream_World_Title__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee__c.CEO__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee__c.Mentor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee__c.Trainer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Account_Balance__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Account_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Address</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.AnnualRevenue</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.CleanStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.CompanyDunsNumber</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.CurrentGenerators__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.DandbCompanyId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.DoNotCall</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Email</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Fax</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.HasOptedOutOfEmail</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.HasOptedOutOfFax</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Industry</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Jigsaw</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.LastTransferDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.LeadSource</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.MobilePhone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.NumberOfEmployees</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.NumberofLocations__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Phone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Primary__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.ProductInterest__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Rating</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.SICCode__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Title</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Website</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Automobile_Tag_Details_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Automobile_Tag_Details_2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Automobile_Tag_Details_3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Return_To_HQ__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Shipment_Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Pan_Card__c.Last_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>School__c.Pin__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>State__c.Country__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>State__c.State_JSON_Data__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>State__c.Total_Number_of_Districts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>StudentSubjects__c.Student__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>StudentSubjects__c.Subject__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Account_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Address__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Bank_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Bank_Phone_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.City__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Class__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Create_Date_Time__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Current_Year__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Date_Of_Birth__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Donation_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Exam_Fees_Submitted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Father_Mobile_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Father_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Fees_Submitted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.HomePhone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.IFSC_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Is_Donation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Mobile_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Overall_Grade__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Pending_Exam_Fees__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Pending_Fees_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Pending_Overall_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Roll_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Section__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Stage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Stream__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Student_Approval__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Subjects_in_which_Back3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Subjects_in_which_Back4__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.Subjects_in_which_Back__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.X1st_Sem_Back__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.X1st_Sem_Percentage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.X2nd_Sem_Percentage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.X3rd_Sem_Back__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.X4th_Sem_Back__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.X4th_Sem_Percentage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Transaction_Enteries__c.TX_Entry_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Transaction_Enteries__c.Transaction_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Transaction_Limit__c.Maximum_Transaction_Allowed_Per_Day__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Transaction_Limit__c.Maximum_Transaction_Allowed_Per_Mon__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>AlternativePaymentMethod-Alternative Payment Method Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ApiAnomalyEventStore-API Anomaly Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AppointmentInvitation-Appointment Invitation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetAction-Asset Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetActionSource-Asset Action Source Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetRelationship-Asset Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssetStatePeriod-Asset State Period Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AssignedResource-Assigned Resource Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AuthorizationForm-Authorization Form Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AuthorizationFormConsent-Authorization Form Consent Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AuthorizationFormDataUse-Authorization Form Data Use Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Automobile_Presence_Sensor__c-Automobile Presence Sensor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Automobile_Sensor__c-Automobile Sensor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Automobile_TDU__c-Automobile TDU Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Automobile_Tag__c-Automobile Tag Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Book__c-Book Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BusinessBrand-Business Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Campaign-Campaign Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CampaignMember-Campaign Member Page Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Candidate__c-Candidate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CardPaymentMethod-Card Payment Method Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartCheckoutSession-Cart Checkout Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartDeliveryGroup-Cart Delivery Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartItem-Cart Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartTax-Cart Tax Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartValidationOutput-Cart Validation Output Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Close Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseMilestone-Case Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Class__c-Class Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>College__c-College Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CommunityMemberLayout-Community Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionRate-Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionSchedule-Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointAddress-Contact Point Address Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointEmail-Contact Point Email Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointPhone-Contact Point Phone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContactPointTypeConsent-Contact Point Type Consent Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContentVersion-Content Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contract-Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContractLineItem-Contract Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Country__c-Country Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CredentialStuffingEventStore-Credential Stuffing Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CreditMemo-Credit Memo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CreditMemoLine-Credit Memo Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer-Customer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DandBCompany-D%26B Company Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DataUseLegalBasis-Data Use Legal Basis Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DataUsePurpose-Data Use Purpose Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DigitalWallet-Digital Wallet Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>District__c-District Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Dream_World__c-Dream World Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EmailMessage-Email Message Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Employee__c-Employee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EngagementChannelType-Engagement Channel Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Entitlement-Entitlement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EntityMilestone-Object Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FinanceTransaction-Finance Transaction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Global-Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Idea-Idea Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Interviewer__c-Interviewer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Invoice-Invoice Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InvoiceLine-Invoice Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Job_Application__c-Job Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Job_Posting_Site__c-Job Posting Site Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Job_Posting__c-Job Posting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LegalEntity-Legal Entity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Macro-Macro Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OperatingHours-Operating Hours Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OpportunityLineItem-Opportunity Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order-Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OrderItem-Order Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pan_Card__c-Pan Card Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Payment-Payment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentAuthorization-Payment Authorization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentGateway-Payment Gateway Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentGatewayLog-Payment Gateway Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentGroup-Payment Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentLineInvoice-Payment Line Invoice Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Position__c-Position Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pricebook2-Price Book Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PricebookEntry-Price Book Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProcessException-Process Exception Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product2-Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Product__c-Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Property__c-Property Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Refund-Refund Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RefundLinePayment-Refund Line Payment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReportAnomalyEventStore-Report Anomaly Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ResourceAbsence-Resource Absence Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ResourcePreference-Resource Preference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReturnOrder-Return Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReturnOrderItemTax-Return Order Item Tax Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ReturnOrderLineItem-Return Order Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Review__c-Review Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>School__c-School Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Scorecard-Scorecard Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScorecardMetric-Scorecard Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Seller-Seller Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceAppointment-Service Appointment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceAppointmentGroup-Service Appointment Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceContract-Service Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResource-Service Resource Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceResourceSkill-Service Resource Skill Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceTerritory-Service Territory Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceTerritoryMember-Service Territory Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceTerritoryRelationship-Service Territory Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SessionHijackingEventStore-Session Hijacking Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Shift-Shift Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SkillRequirement-Skill Requirement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SocialPersona-Social Persona Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Solution-Solution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>State__c-State Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StudentSubjects__c-StudentSubjects Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Student__c-Registrar Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Student__c-Registrar Layout</layout>
+        <recordType>Student__c.Registrar_Records</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Student__c-Teacher Layout</layout>
+        <recordType>Student__c.Teacher_s_Record</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Subject__c-Subject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Suggestion__c-Suggestion Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Teacher__c-Teacher Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TimeSlot-Time Slot Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Transaction_Enteries__c-Transaction Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Transaction_Limit__c-Transaction Limit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>User-User Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvAccount-User Provisioning Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningLog-User Provisioning Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebCart-Cart Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebCartAdjustmentGroup-Cart Adjustment Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebStore-Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebStoreConfig-Web Store Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrder-Work Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkProcedure-Work Procedure Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkProcedureStep-Work Procedure Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkType-Work Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkTypeExtension-Work Type Extension Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkTypeGroup-Work Type Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Year_of_Class__c-Year of Class Layout</layout>
+    </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Lead</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <pageAccesses>
+        <apexPage>HomePage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Student__c.Registrar_Records</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Student__c.Teacher_s_Record</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Automobile_Presence_Sensor__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Automobile_Sensor__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Automobile_TDU__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Automobile_Tag__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Bike_Card</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Book__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Candidate__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>College__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Country__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>District__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Dream_World__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Employee__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Interviewer__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Job_Application__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Job_Posting_Site__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Position__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Property__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>State__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>StudentSubjects__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Student__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Subject__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Suggestion__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Teacher__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Transaction_Enteries__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Transaction_Limit__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Lead</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <userLicense>Salesforce</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ActivitiesAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowUniversalSearch</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowViewKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApexRestServices</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AssignTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanAccessCE</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterEditOwnPost</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterFileLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInternalUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInviteExternalUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterOwnGroups</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ContentWorkspaces</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ConvertLeads</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeFilters</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DistributeFromPersWksp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditEvent</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditOppLineItemUnitPrice</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTask</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EmailMass</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EmailSingle</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableCommunityAppLauncher</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableNotifications</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExportReport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ImportPersonal</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningConsoleAllowedForUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ListEmailSend</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>MassInlineEdit</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RemoveDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SendSitRequests</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShowCompanyNameAsUserBadge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubmitMacrosAllowed</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubscribeToLightningReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>TransactionalEmailSend</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseWebLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDeveloperName</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewHelpLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
+</Profile>

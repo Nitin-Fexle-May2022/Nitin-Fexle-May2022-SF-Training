@@ -5,8 +5,21 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
+		<members>HomePage</members>
+		<name>ApexPage</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>Case.Standard</members>
+		<members>Lead.Standard</members>
+		<name>AssignmentRule</name>
+	</types>
+	<types>
+		<members>Banking_Management_System</members>
+		<name>CustomApplication</name>
 	</types>
 	<types>
 		<members>Account.Account_Email__c</members>
@@ -21,9 +34,18 @@
 		<members>Automobile_Tag__c.Account__c</members>
 		<members>Automobile_Tag__c.Opportunity__c</members>
 		<members>Book__c.Price__c</members>
+		<members>Class__c.Section__c</members>
+		<members>Contact.Account_Number__c</members>
+		<members>Contact.Available_Balance__c</members>
+		<members>Contact.Daily_Debit_Limit__c</members>
+		<members>Contact.Daily_Transaction_Limit_Count__c</members>
 		<members>Contact.Headquarter_account__c</members>
 		<members>Contact.Level__c</members>
+		<members>Contact.Monthly_Debit_Limit__c</members>
+		<members>Contact.Monthly_Transaction_Limit_Count__c</members>
 		<members>Contact.Pan_Card__c</members>
+		<members>Contact.Status__c</members>
+		<members>Contact.Transaction_Limit__c</members>
 		<members>Contact.Year_of_Class__c</members>
 		<members>Country__c.Country_Code__c</members>
 		<members>Country__c.Country_JSON_Data__c</members>
@@ -36,6 +58,8 @@
 		<members>Employee__c.CEO__c</members>
 		<members>Employee__c.Mentor__c</members>
 		<members>Employee__c.Trainer__c</members>
+		<members>Lead.Account_Balance__c</members>
+		<members>Lead.Account_Number__c</members>
 		<members>Opportunity.Automobile_Tag_Details_1__c</members>
 		<members>Opportunity.Automobile_Tag_Details_2__c</members>
 		<members>Opportunity.Automobile_Tag_Details_3__c</members>
@@ -44,6 +68,7 @@
 		<members>Pan_Card__c.First_Name__c</members>
 		<members>Pan_Card__c.Last_Name__c</members>
 		<members>Pan_Card__c.Pan_Card_Number__c</members>
+		<members>School__c.Pin__c</members>
 		<members>State__c.Country_Name__c</members>
 		<members>State__c.Country__c</members>
 		<members>State__c.State_Code__c</members>
@@ -76,8 +101,10 @@
 		<members>Student__c.Pending_Overall_Amount__c</members>
 		<members>Student__c.Roll_Number__c</members>
 		<members>Student__c.Section__c</members>
+		<members>Student__c.Stage__c</members>
 		<members>Student__c.State__c</members>
 		<members>Student__c.Stream__c</members>
+		<members>Student__c.Student_Approval__c</members>
 		<members>Student__c.Subjects_in_which_Back3__c</members>
 		<members>Student__c.Subjects_in_which_Back4__c</members>
 		<members>Student__c.Subjects_in_which_Back__c</members>
@@ -88,21 +115,37 @@
 		<members>Student__c.X4th_Sem_Back__c</members>
 		<members>Student__c.X4th_Sem_Percentage__c</members>
 		<members>Teacher__c.College__c</members>
+		<members>Transaction_Enteries__c.Amount__c</members>
+		<members>Transaction_Enteries__c.Contact__c</members>
+		<members>Transaction_Enteries__c.Status__c</members>
+		<members>Transaction_Enteries__c.TX_Entry_Name__c</members>
+		<members>Transaction_Enteries__c.Transaction_Date__c</members>
+		<members>Transaction_Enteries__c.Type__c</members>
+		<members>Transaction_Limit__c.Maximum_Debit_Allowed_Per_Day__c</members>
+		<members>Transaction_Limit__c.Maximum_Debit_Allowed_Per_Month__c</members>
+		<members>Transaction_Limit__c.Maximum_Debit_Allowed_Per_Transaction__c</members>
+		<members>Transaction_Limit__c.Maximum_Transaction_Allowed_Per_Day__c</members>
+		<members>Transaction_Limit__c.Maximum_Transaction_Allowed_Per_Mon__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
 		<members>Book__c</members>
+		<members>Class__c</members>
 		<members>College__c</members>
 		<members>Country__c</members>
 		<members>District__c</members>
 		<members>Dream_World__c</members>
 		<members>Employee__c</members>
+		<members>Lead</members>
 		<members>Pan_Card__c</members>
+		<members>School__c</members>
 		<members>State__c</members>
 		<members>StudentSubjects__c</members>
 		<members>Student__c</members>
 		<members>Subject__c</members>
 		<members>Teacher__c</members>
+		<members>Transaction_Enteries__c</members>
+		<members>Transaction_Limit__c</members>
 		<members>Year_of_Class__c</members>
 		<name>CustomObject</name>
 	</types>
@@ -112,22 +155,73 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>Layout</name>
 	</types>
 	<types>
+		<members>childLwc</members>
+		<members>childWebComponent</members>
 		<members>demoSyncAsync</members>
 		<members>methodSequence</members>
 		<members>myCalculator</members>
-		<members>childLwc</members>
+		<members>nonCanncelledTransctions</members>
 		<members>parentLwc</members>
-		<members>childWebComponent</members>
 		<members>parentWebComponent</members>
+		<members>statementLwc</members>
 		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>Bank_Management_Access</members>
+		<members>Priya_Permission_Set</members>
+		<members>Seema_Permission_Set</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>Priya_Permission_Set_Group</members>
+		<members>Sema_Permisson_Set_Group</members>
+		<name>PermissionSetGroup</name>
+	</types>
+	<types>
+		<members>Bank Admin</members>
+		<members>Principle</members>
+		<members>Standard</members>
+		<members>Student Coordinator</members>
+		<members>Teacher</members>
+		<name>Profile</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Queue</name>
 	</types>
 	<types>
 		<members>Student__c.Registrar_Records</members>
 		<members>Student__c.Teacher_s_Record</members>
 		<name>RecordType</name>
 	</types>
-	<version>53.0</version>
+	<types>
+		<members>BankingManagmnet/Debit_vs_Credit_Per_Month_kl3</members>
+		<members>BankingManagmnet/First_debit_vs_credit_Report_nS5</members>
+		<members>BankingManagmnet/Monthly_Cash_Flow_pTC</members>
+		<name>Report</name>
+	</types>
+	<types>
+		<members>Contact</members>
+		<members>Transaction_Limit__c</members>
+		<members>User</members>
+		<name>SharingRules</name>
+	</types>
+	<types>
+		<members>Model</members>
+		<members>jsPdf</members>
+		<name>StaticResource</name>
+	</types>
+	<types>
+		<members>Transaction_Enteries__c.Contact_Validation</members>
+		<members>Transaction_Enteries__c.Minimum_Balance_Required</members>
+		<name>ValidationRule</name>
+	</types>
+	<version>55.0</version>
 </Package>
