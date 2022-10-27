@@ -1,6 +1,5 @@
 <apex:page controller="HomePageController" docType="html-5.0">
     <apex:slds />
-    <!-- Begin Default Content REMOVE THIS -->
     <h1>Search Transactions</h1>
     <apex:form id="form">
 
@@ -54,5 +53,4 @@
             </apex:pageBlockTable>
         </apex:pageBlock>
     </apex:form>
-    <!-- End Default Content REMOVE THIS -->
 </apex:page>

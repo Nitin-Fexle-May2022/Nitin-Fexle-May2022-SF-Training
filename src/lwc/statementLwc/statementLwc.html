@@ -7,7 +7,7 @@
                     <lightning-input type="Date" variant="standard" name="End Date" label="End Date" placeholder="Select End Date" onchange={handleDateChange2}></lightning-input>
                     <lightning-button variant="brand" label="Display Transations" onclick={handleDisplayRecords} ></lightning-button>
                     <lightning-button variant="brand" label="DownLoad CSV" onclick={handleCsvRecords} ></lightning-button>
-                    <lightning-button variant="brand" label="Download PDF" onclick={generatePdf} ></lightning-button>
+                    <lightning-button variant="brand" label="Download PDF" onclick={downloadDataPdf} ></lightning-button>
                 </p>
             </div>
             <template if:true={showTable}>

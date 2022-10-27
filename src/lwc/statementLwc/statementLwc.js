@@ -19,13 +19,14 @@ export default class StatementLwc extends LightningElement {
 
   columnHead = ['Transaction', 'Transaction Type', 'Transaction Status', 'Transaction Amount', 'TransactionDate' ];
 
-  header = this.createHeaders( [
-                               'Name', 
-                               'Type__c', 
-                               'Status__c', 
-                               'Amount__c', 
-                               'Transaction_Date__c' 
-                            ]);
+
+      /*headers = this.createHeaders([
+                                'Name',
+                                 'Type__c',
+                                    'Status__c',
+                                    'Transaction_Date__c'
+                                  ]);*/
+                                
    
      handleDateChange1(event){
          this.startDate = event.target.value;
@@ -84,22 +85,19 @@ export default class StatementLwc extends LightningElement {
                 document.body.appendChild(downloadElement);
                 downloadElement.click();
              }
-
-             generatePdf(){
-                const { jsPDF } = window.jsPdf;
-                const doc = new jsPDF({
+             /* generatePdf(){
+                const { jsPDF } = window.jspdf;
+                const pdf = new jsPDF({
                     encryption: {
-                        userPassword: "user",
-                        ownerPassword: "owner",
                         userPermissions: ["print", "modify", "copy", "annot-forms"]
-                        // try changing the user permissions granted
                     }
                 });
-        
-                doc.text("Hi I'm Matt", 20, 20);
-                doc.table(30, 30, this.recordData, this.header, { autosize:true });
-                console.log("Yes");
-                doc.save("demo.pdf");
+          
+                console.log(this.dataList);
+          
+                pdf.text("Transaction Statement", 90, 10);
+                pdf.table(10, 20, this.dataList, this.headers, {autosize: true});
+                pdf.save("Statement.pdf");
             }
 
              createHeaders(keys) {
@@ -122,4 +120,55 @@ export default class StatementLwc extends LightningElement {
                     loadScript(this, JSPDF)
                 ]);
             }
+            */
+            renderedCallback() {
+                Promise.all([
+                    loadScript(this, JSPDF)
+                ]);
+            }
+            
+              headers = this.createHeaders([
+                'Name',
+                'Type__c',
+                'Status__c',
+                'Transaction_Date__c'
+              ]);
+            
+            
+              generatePdf(){
+                  const { jsPDF } = window.jspdf;
+                  const pdf = new jsPDF({
+                      encryption: {
+                          userPermissions: ["print", "modify", "copy", "annot-forms"]
+                      }
+                  });
+            
+                  console.log(this.recordData);
+            
+                  pdf.text("Transaction Statement", 90, 10);
+                  pdf.table(10, 20, this.recordData, this.headers, {autosize: true});
+                  pdf.save("Statement.pdf");
+              }
+            
+              downloadDataPdf() {
+            
+                console.log("download PDF.");
+                this.generatePdf();
+              }
+            
+            
+              createHeaders(keys) {
+                let result = [];
+                for (let i = 0; i < keys.length; i += 1) {
+                  result.push({
+                    id: keys[i],
+                    name: keys[i],
+                    prompt: keys[i],
+                    width: 65,
+                    align: "center",
+                    padding: 0
+                  });
+                }
+                return result;
+              }
     }
