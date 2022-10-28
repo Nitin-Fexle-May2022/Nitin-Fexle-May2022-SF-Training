@@ -1,0 +1,14 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card title="Transactions" icon-name="standard:number_input">
+        <div class="slds-var-p-around_small">
+            <lightning-combobox name="Records Limit" label="Records Limit" value={selectedRecordLimits}  options={recordLimitOption}  placeholder="Select a value" onchange={handleRecordLimitChange}>
+            </lightning-combobox>       
+        </div>
+        <template if:true={showTable}>
+                <lightning-datatable key-field="Id"  data={records}
+                            columns={colomn} hide-checkbox-column="true">
+                </lightning-datatable>
+        </template>
+    </lightning-card>
+</template>
